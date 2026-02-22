@@ -3,7 +3,15 @@
  */
 public class App {
     public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
         System.out.println("Git example...!");
+
+        int num = 100;
+        for (int i = 0; i < num; i++) {
+            double result = Math.sqrt(i);
+            System.out.println("Number: " + i + ", Square root: " + result);
+        }
+        
     }
 }
