@@ -1,4 +1,66 @@
-bin/
+# === General ===
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# === Build / packaging ===
+# Gradle
+.gradle/
+build/
+out/
+
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# Native / binaries
 *.exe
 *.o
+
+# JVM crash logs
+hs_err_pid*
+
+# Distribution
+dist/
+release/
+
+# === IDE / Editor ===
+# VS Code
 .vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+
+# === Libraries / libs ===
+lib/**/*.jar
+lib/*.jar
+
+# === Logs / temp ===
+*.log
+tmp/
+
+# === Misc ===
+# binaries folder
+bin/
+
+# keep README, LICENSE, source
+!README.md
+!LICENSE
